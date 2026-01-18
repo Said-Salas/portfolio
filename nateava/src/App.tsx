@@ -1,5 +1,8 @@
 import './App.css'
+import { Product } from './components/Product'
 
 export const App = () => {
-  return <h1>Hi</h1>
+  return (
+    <Product />
+  )
 }
